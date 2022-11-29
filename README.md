@@ -9,6 +9,7 @@ Basic Html assignment
 
 # Technologies
 
+<<<<<<< HEAD
 - Frontend: Html, SCSS, React, Redux
 - Backend: Nodejs, Express, MongoDB, RestAPI
 
