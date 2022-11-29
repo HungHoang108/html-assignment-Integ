@@ -1,142 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hung Hoang</title>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="">Hung Hoang</a>
-            <a href="">Tech Stack</a>
-            <a href="">Favorite Books</a>
-            <a href="">Ask Me</a>
-
-        </nav>
+      <nav>
+        <a href="#profile">Hung Hoang</a>
+        <a href="#tech">Tech Stack</a>
+        <a href="#book">Favorite Books</a>
+        <a href="#contact">Ask Me</a>
+      </nav>
     </header>
     <main>
-        <h1>Hung Hoang</h1>
-        <audio controls>
-            <!-- <source src="horse.ogg" type="audio/ogg"> -->
-            <source src="introductioin.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
+      <h1 id="profile">Hung Hoang</h1>
+      <audio controls>
+        <!-- <source src="horse.ogg" type="audio/ogg"> -->
+        <source src="introductioin.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <div>
+        <i>Full stack developer trainee at Integrify</i>
+        <br />
+        <address>
+          <a href="hung.hoang@integrify.io">hung.hoang@integrify.io</a>
+          <br />
+          <a href="tel:+358 402585296">+358 402585296</a>
+          <br />
+          <i>Helsinki, Finland</i>
+        </address>
+        <br />
+        <article>
+          <p>
+            I like to create something from nothing, it's simply amazing. In my
+            free time I like to watch football and hang out with friends in the
+            weekend. I also like self development so I am interested in
+            listening podcast and audiobook about it.
+          </p>
+        </article>
+        <section>
+          <h2>Place I have been</h2>
+          <table>
+            <tr>
+              <th>City</th>
+              <th>Country</th>
+              <th>Duration</th>
+            </tr>
+            <tr>
+              <td>Thanh Hoa</td>
+              <td>Vietnam</td>
+              <td>18 years</td>
+            </tr>
+            <tr>
+              <td>Ha Noi</td>
+              <td>Vietnam</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td>Kouvola</td>
+              <td>Finland</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td>Turku</td>
+              <td>Finland</td>
+              <td>1.5 years</td>
+            </tr>
+            <tr>
+              <td>Helsinki</td>
+              <td>Finland</td>
+              <td>2.5 years</td>
+            </tr>
+          </table>
+        </section>
+        <hr />
+        <section>
+          <h2 id="tech">Tech Stack</h2>
+          <ol>
+            <li>
+              Frontend
+              <ul>
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaSCript</li>
+                <li>React</li>
+                <li>Redux</li>
+              </ul>
+            </li>
+            <li>
+              Backend
+              <ul>
+                <li>Nodejs/Express</li>
+                <li>RestAPI</li>
+                <li>MongoDB</li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <hr />
+        <section>
+          <h2 id="book">Favorite Books</h2>
+          <ul>
+            <li>
+              The art of Impossible- A Peak Performance Primer- Steven Kotler
+            </li>
+          </ul>
+        </section>
+        <hr />
+        <section>
+          <h2 id="contact">Ask me a question</h2>
+
           <div>
-            <p>Full stack developer trainee at Integrify</p>
-            <a href = "hung.hoang@integrify.io">hung.hoang@integrify.io</a>
-            <br>
-            <a href="tel:+358 402585296">+358 402585296</a>
-            <p>Helsinki, Finland</p>
-            <p>
-                I like to create something from nothing, it's simply amazing. In my free time
-                I like to watch football and hang out with friends in the weekend. I also like self development so 
-                I am interested in listening podcast and audiobook about it.
-            </p>
-            <section>
-                <h2>Place I have been</h2>
-                <table>
-                    <tr>
-                      <th>City</th>
-                      <th>Country</th>
-                      <th>Duration</th>
-                    </tr>
-                    <tr>
-                      <td>Thanh Hoa</td>
-                      <td>Vietnam</td>
-                      <td>18 years</td>
-                    </tr>
-                    <tr>
-                      <td>Ha Noi</td>
-                      <td>Vietnam</td>
-                      <td>3 years</td>
-                    </tr>
-                    <tr>
-                      <td>Kouvola</td>
-                      <td>Finland</td>
-                      <td>3 years</td>
-                    </tr>
-                    <tr>
-                        <td>Turku</td>
-                        <td>Finland</td>
-                        <td>1.5 years</td>
-                      </tr>
-                      <tr>
-                        <td>Helsinki</td>
-                        <td>Finland</td>
-                        <td>2.5 years</td>
-                      </tr>
+            <form>
+              <label for="fname">Your full name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+              <br />
 
-                  </table>
-                  
-            </section>
-            <hr>
-            <section>
-                <h2>Tech Stack</h2>
-                <ol>
-                    <li>Frontend</li>
-                    <ul>
-                        <li>HTML</li>
-                        <li>SCSS</li>
-                        <li>JavaSCript</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                    </ul>
-                </ol>
-                <ol>
-                    <li>Backend</li>
-                    <ul>
-                        <li>Nodejs/Express</li>
-                        <li>RestAPI</li>
-                        <li>MongoDB</li>
-                    </ul>
-                </ol>
+              <label for="email">Last Name</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+              /><br />
 
-            </section>
-            <hr>
-            <section>
-                <h2>Favorite Books</h2>
-                <ul>
-                    <li>The art of Impossible- APeak Performance Primer- Steven Kotler</li>
+              <label for="topic">Choose a topic</label>
+              <select id="topic" name="topic">
+                <option value="Debug">Debug</option>
+                <option value="Syntax">Syntax</option>
+                <option value="Workflow">Workflow</option>
+              </select>
+              <br />
 
-                </ul>
-            </section>
-            <hr>
-            <section>
-                <h2>Ask me a question</h2>
+              <label for="error">File name which contains the error</label>
+              <input
+                type="text"
+                id="error"
+                name="firstname"
+                placeholder="File name which contains the error"
+              />
+              <br />
 
-                <div>
-                    <form ">
-                      <label for="fname">Your full name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
-                  
-                      <label for="email">Last Name</label>
-                      <input type="email" id="email" name="email" placeholder="Your email"><br>
-                  
-                      <label for="topic">Choose a topic</label>
-                      <select id="topic" name="topic">
-                        <option value="Debug">Debug</option>
-                        <option value="Syntax">Syntax</option>
-                        <option value="Workflow">Workflow</option>
-                      </select>
-                      <br>
-                      <label for="error">File name which contains the error</label>
-                      <input type="text" id="error" name="firstname" placeholder="File name which contains the error"> <br>
-                  
-                      <label for="subject">Explain your issue in detail</label>
-                      <br>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                      <br>
-                      <input type="submit" value="Submit">
-                    </form>
-                  </div>
-            </section>
+              <label for="subject">Explain your issue in detail</label>
+              <br />
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Your message"
+                rows="4"
+                cols="50"
+              ></textarea>
+              <br />
+              <input type="submit" value="Submit" />
+            </form>
+            
           </div>
-      
+        </section>
+      </div>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <hr />
+    <footer>© Made by Hung Hoang 2022</footer>
+  </body>
 </html>
